@@ -15,4 +15,10 @@ public interface DeptDao {
      * @return
      */
     DeptVO findById(@Param("deptNO") Long deptNO);
+
+    /**
+     * 查询部门集合
+     * @return
+     */
+    List<DeptVO> findList();
 }
